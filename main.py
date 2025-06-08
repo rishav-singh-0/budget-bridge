@@ -1,14 +1,3 @@
-
-# def main():
-#     print("Hello from cashew-banker!")
-
-
-# if __name__ == "__main__":
-#     main()
-
-
-# CashewBanker: Convert Bank Statements to Cashew Format
-
 import streamlit as st
 import pandas as pd
 import json

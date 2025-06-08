@@ -1,7 +1,7 @@
 [project]
-name = "cashew-banker"
+name = "budget-bridge"
 version = "0.1.0"
-description = "A streamlit-powered converter that transforms uploaded bank statements (PDF, CSV, XLSX) into Cashew format with auto-categorization via Gemini API"
+description = "BudgetBridge is a lightweight, Streamlit‑powered utility that transforms raw bank statements (PDF, Excel or CSV) into ready‑to‑import budget entries. Leveraging AI for Categorizing"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
