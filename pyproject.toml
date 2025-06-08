@@ -4,4 +4,12 @@ version = "0.1.0"
 description = "A streamlit-powered converter that transforms uploaded bank statements (PDF, CSV, XLSX) into Cashew format with auto-categorization via Gemini API"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "dotenv>=0.9.9",
+    "google-genai>=1.19.0",
+    "google-generativeai>=0.8.5",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.0",
+    "pdfplumber>=0.11.6",
+    "streamlit>=1.45.1",
+]
