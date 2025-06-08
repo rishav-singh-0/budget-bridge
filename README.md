@@ -8,3 +8,12 @@ BudgetBridge is a lightweight, Streamlit‑powered utility that transforms raw b
 - Exports a clean CSV file compatible with your favorite budgeting tool
 
 With BudgetBridge, you can go from messy statements to organized financial data in seconds—no manual copy‑pasting, no error‑prone spreadsheets, and zero friction between your bank and your budget.
+
+## Running
+
+> Note: Make sure to add your `GEMINI_API_KEY` to `.env` file.
+
+### Using `uv`
+```bash
+uv run main.py
+```
